@@ -57,8 +57,8 @@ if sys.platform == 'linux':
     data_files.append(('/usr/share/pixmaps', ['share/OpenCobolIDE.png']))
 
 
-if 'bdist_wheel' in sys.argv:
-    raise RuntimeError("This setup.py does not support wheels")
+#if 'bdist_wheel' in sys.argv:
+#    raise RuntimeError("This setup.py does not support wheels")
 
 
 setup(

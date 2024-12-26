@@ -24,7 +24,7 @@ doctype_lookup_re = re.compile(r'''(?smx)
      )
      [^>]*>
 ''')
-tag_re = re.compile(r'<(.+?)(\s.*?)?>.*?</.+?>(?uism)')
+tag_re = re.compile(r'<(.+?)(\s.*?)?>.*?</.+?>(uism)')
 xml_decl_re = re.compile(r'\s*<\?xml[^>]*\?>', re.I)
 
 
